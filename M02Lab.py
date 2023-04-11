@@ -4,9 +4,9 @@ while(1):
         break
     else:
         studentsfirstname = input("Input Students First Name: ")
-        studentsgpa = input("Input Students GPA: ")
+        studentsgpa = float(input("Input Students GPA: "))
 
-        if studentsgpa >= 3.5:
+        if studentsgpa >= float(3.5):
             print("Student has made the Dean's List.")
         elif studentsgpa >= 3.25:
             print("Student has made the Honor Roll.")
