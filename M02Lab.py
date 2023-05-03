@@ -1,3 +1,7 @@
+##Colby Koppelmann
+##M02Lab.py
+##This app checks a students gpa against a set standard to see if they make the Dean's List or Honor Roll.
+
 while(1):
     studentslastname = input("Input Students Last Name: ")
     if studentslastname == "ZZZ":
